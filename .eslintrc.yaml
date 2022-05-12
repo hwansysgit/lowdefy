@@ -19,7 +19,9 @@ plugins:
   - react
   - react-hooks
 rules:
-  prettier/prettier: error
+  prettier/prettier:
+    - error
+      endOfLine : 'auto'
   no-console: warn
   no-underscore-dangle: 'off'
   no-param-reassign: warn
